@@ -10,6 +10,6 @@
         <Label x:Name="lblQuestion" Content="Question" Height="50" Width="670" BorderThickness="2"/>
         <TextBox x:Name="UserInput" Text="Enter Guess" Canvas.Top="50" Width="670" Height="50" BorderThickness="2"/>
         <Button x:Name="btnCheck" Content="Check Answer" Click="BtnCheck_Click" Height="100" Width="120" Canvas.Left="665" FontSize="18" Background="Aqua" BorderThickness="2"/>
-        <Label x:Name="lblRevealAnswer" Canvas.Top="100" Height="50" Width="790" Content="Will You Get The Correct Answer?" BorderThickness="2"/>
+        <Label x:Name="lblCorrectAnswer" Canvas.Top="100" Height="50" Width="790" Content="Will You Get The Correct Answer?" BorderThickness="2"/>
     </Canvas>
 </Window>

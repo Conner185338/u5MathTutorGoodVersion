@@ -66,11 +66,11 @@ namespace u5MathTutor
 
                 if (UserAnswer == Answer)
                 {
-                    lblRevealAnswer.Content = "You're Answer is Correct!";
+                    lblCorrectAnswer.Content = "You're Answer is Correct!";
                 }
                 else
                 {
-                    lblRevealAnswer.Content = "You're Answer Is Incorrect :(" + Environment.NewLine + "Correct Answer: " + Answer;
+                    lblCorrectAnswer.Content = "You're Answer Is Incorrect :(" + Environment.NewLine + "Correct Answer: " + Answer;
                 }
                 btnCheck.Content = "Next Question";
                 counter++;
@@ -79,7 +79,7 @@ namespace u5MathTutor
             else
             {
                 NewQuestion();
-                lblRevealAnswer.Content = "";
+                lblCorrectAnswer.Content = "";
                 btnCheck.Content = "Check Answer";
                 counter = 0;
             }
